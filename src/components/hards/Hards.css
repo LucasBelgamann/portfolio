@@ -1,28 +1,30 @@
 .container-hards {
-    display: flex;
-    align-items: center;
-    height: 60vh;
+  display: flex;
+  align-items: center;
+  height: 60vh;
 }
 
 .hards {
-  background-color: #030C15;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  background-color: #030c15;
   display: flex;
   overflow-x: hidden;
 }
 
 .hards img {
-    width: 8%;
-    margin: 20px 10px;
-    aspect-ratio: 3/2;
-    object-fit: contain;
+  width: 8%;
+  margin: 20px 10px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 767px) {
-    .container-hards {
-        height: 10vh;
-    }
-    
-    .hards img {
-        width: 15%;
-    }
- }
+  .container-hards {
+    height: 10vh;
+  }
+
+  .hards img {
+    width: 15%;
+  }
+}
