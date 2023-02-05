@@ -61,3 +61,32 @@
      }
     
  }
+
+ @media screen and (min-width: 767px) and (max-width: 1023px) {
+    .container-about {
+        height: 55vh;
+      }
+
+    .aboutme {
+        margin: auto;
+        width: 90%;
+    }
+    
+    .aboutme h2 {
+       font-size: 20px;
+    }
+    
+    
+    .line-about {
+        height: 20vh;
+    }
+    
+    .aboutme p {
+        font-size: 12px;
+     }
+    
+ }
+
+ @media screen and (max-width: 1024px) {
+  
+ }

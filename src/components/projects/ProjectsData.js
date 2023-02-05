@@ -14,7 +14,7 @@ export const Data = [
         title: 'Delivery app',
         img: jhon,
         link: 'https://github.com/LucasBelgamann/delivery_app',
-        description: 'Nessa aplicação, o grupo foi responsável por criar e integrar tanto o back-end quanto o front-end, sendo o principal objetivo desenvolver um app de delivery para uma distribuidora de bebidas.',
+        description: 'Aplicação que vai do banco de dados até a interface do usuário, sendo o principal objetivo desenvolver um app de delivery para uma distribuidora de bebidas.',
         techs: [
             {
                 img: javaScript

@@ -65,6 +65,7 @@ div.sigle-input label {
   left: 5px;
   bottom: 10px;
   color: rgb(150, 150, 150);
+  font-family: 'Gloria Hallelujah', cursive;
   cursor: text;
   transition: 0.5s ease-in-out;
 }
@@ -100,6 +101,7 @@ div.sigle-input .input:valid ~ label {
   height: 15vh;
   width: 20vw;
   resize: none;
+  font-family: 'Gloria Hallelujah', cursive;
   outline: none;
   transition: 0.3s ease-in-out;
 }
