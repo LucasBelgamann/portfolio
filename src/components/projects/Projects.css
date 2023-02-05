@@ -1,0 +1,26 @@
+.project-content {
+    background-color: #030C15;
+    color: white;
+    height: 100%;
+    padding: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.projects img {
+    margin: 15px;
+    width: 40%;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+@media screen and (max-width: 767px) {
+ }

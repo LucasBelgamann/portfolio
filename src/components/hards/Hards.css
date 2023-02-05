@@ -1,0 +1,24 @@
+.container-hards {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}
+
+.hards {
+  background-color: #030C15;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.hards img {
+    width: 8%;
+    margin: 20px 10px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 767px) {
+    .container-hards {
+        height: 10vh;
+    }
+ }

@@ -1,0 +1,26 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 7vh;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    color: white;
+}
+
+.navbar ul li {
+    color: black;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.logo svg {
+    color: black;
+    font-size: 40px;
+    margin-left: 20px;
+}
