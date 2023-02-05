@@ -1,27 +1,30 @@
-import './Navbar.css';
-import { SiAtom } from 'react-icons/si';
+import * as BiIcons from "react-icons/bi";
+import "./Navbar.css";
 
-export default function Navbar() {
+const Navbar = () => {
   return (
-      <nav className="navbar">
-        <div>
-          <a href="#" className="logo">
-            <SiAtom />
+    <nav className="navPc">
+      <a href="#" className="icon">
+        <BiIcons.BiChip />
+      </a>
+      <ul>
+        <li>
+          <a href="#about-title" class="link">
+            SOBRE MIM
           </a>
-        </div>
-        <div>
-          <ul>
-            <a href="#aboutme">
-                <li>SOBRE MIM</li>
-            </a>
-            <a href="#projects">
-                <li>PROJETOS</li>
-            </a>
-            <a href="#contact">
-                <li>CONTATO</li>
-            </a>
-          </ul>
-        </div>
-      </nav>
+        </li>
+        <li>
+          <a href="#projects" class="link">
+            PROJETOS
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="link">
+            CONTATO
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
-}
+};
+export default Navbar;

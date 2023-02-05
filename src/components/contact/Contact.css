@@ -116,6 +116,12 @@ div.sigle-input .input:valid ~ label {
   width: 10vw;
   height: 5vh;
   margin-top: 10px;
+  background-color: #0e193e;
+  transition: background-color;
+  transition-duration: 0.5s;
+}
+
+.form button:hover {
   background-color: #273b7a;
 }
 
@@ -125,11 +131,11 @@ div.sigle-input .input:valid ~ label {
   }
 
   div.sigle-input .input {
-    width: 80vw;
+    width: 65vw;
   }
 
   .textarea {
-    width: 80vw;
+    width: 65vw;
   }
 
   .form button {
