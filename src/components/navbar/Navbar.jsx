@@ -11,16 +11,13 @@ export default function Navbar() {
         </div>
         <div>
           <ul>
-            <a href="#">
+            <a href="#aboutme">
                 <li>SOBRE MIM</li>
             </a>
-            <a href="#">
+            <a href="#projects">
                 <li>PROJETOS</li>
             </a>
-            <a href="#">
-                <li>COMPETÊNCIAS</li>
-            </a>
-            <a href="#">
+            <a href="#contact">
                 <li>CONTATO</li>
             </a>
           </ul>

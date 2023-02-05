@@ -1,0 +1,144 @@
+.container-contact {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-form {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form h2 {
+  font-family: "Abel", sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container-form svg {
+  font-size: 60px;
+  color: white;
+  transition: color;
+  transition-duration: 0.5s;
+}
+
+.container-form svg:hover {
+  color: #273b7a;
+}
+
+.github {
+  margin: 0 20px;
+}
+
+.developer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(104, 103, 103);
+  width: 100%;
+  height: 7vh;
+  border-top: solid rgb(104, 103, 103) 1px;
+}
+
+div.sigle-input {
+  width: 100%;
+  margin: 15px 0;
+  position: relative;
+}
+
+div.sigle-input label {
+  font-size: 16px;
+  position: absolute;
+  left: 5px;
+  bottom: 10px;
+  color: rgb(150, 150, 150);
+  cursor: text;
+  transition: 0.5s ease-in-out;
+}
+
+div.sigle-input .input {
+  width: 20vw;
+  height: 5vh;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(150, 150, 150);
+  border: none;
+  border-bottom: 2px solid rgb(200, 200, 200);
+  outline: none;
+  font-size: 16px;
+}
+
+div.sigle-input .input:focus,
+div.sigle-input .input:valid {
+  border-bottom: 4px solid #273b7a;
+}
+
+div.sigle-input .input:focus ~ label,
+div.sigle-input .input:valid ~ label {
+  transform: translateY(-30px);
+  font-size: 12px;
+}
+
+.textarea {
+  margin: 14px 0;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  height: 15vh;
+  width: 20vw;
+  resize: none;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+.textarea:focus,
+.textarea:valid {
+  border-bottom: 4px solid #273b7a;
+}
+
+.form button {
+  border: none;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10vw;
+  height: 5vh;
+  margin-top: 10px;
+  background-color: #273b7a;
+}
+
+@media screen and (max-width: 767px) {
+  .container-form {
+    flex-direction: column;
+  }
+
+  div.sigle-input .input {
+    width: 80vw;
+  }
+
+  .textarea {
+    width: 80vw;
+  }
+
+  .form button {
+    width: 40vw;
+    margin-bottom: 60px;
+  }
+
+  .container-form svg {
+    font-size: 40px;
+    color: white;
+  }
+}

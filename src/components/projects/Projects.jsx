@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div className="cont-project">
+    <div id="projects" className="cont-project">
       <h2 className="title-projects">Projetos</h2>
       <div className="container-projects">
       {Data.map((e) => (

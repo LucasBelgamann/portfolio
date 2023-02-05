@@ -1,9 +1,11 @@
 .cont-project {
-  background-color: #030c15;
+  background-color: #131d494d;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .container-projects {
+  padding-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -96,7 +98,7 @@
 }
 
 .card .content p {
-  color: #fff;
+  color: rgb(75, 74, 74);
   margin-bottom: 25px;
 }
 
