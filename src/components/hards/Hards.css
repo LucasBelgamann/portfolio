@@ -21,4 +21,8 @@
     .container-hards {
         height: 10vh;
     }
+    
+    .hards img {
+        width: 15%;
+    }
  }
