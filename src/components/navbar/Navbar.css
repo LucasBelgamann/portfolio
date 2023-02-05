@@ -2,7 +2,8 @@
 a {
 	text-decoration: none;
 	color: inherit;
-    font-family: 'Abel', sans-serif;
+	font-size: 10px;
+    font-family: 'Rock Salt', cursive;
 }
 
 .navPc {
@@ -40,7 +41,7 @@ a {
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background-color: #0300b5;
+	background-color: #000000;
 	border-radius: 4px;
 	scale: 0 1;
 	transform-origin: right;
@@ -75,6 +76,6 @@ a {
     }
 
     .link  {
-        font-size: 12px;
+        font-size: 8px;
     }
   }

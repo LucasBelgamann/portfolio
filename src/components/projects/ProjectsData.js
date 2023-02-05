@@ -37,7 +37,7 @@ export const Data = [
         title: 'App de receitas',
         img: recipesApp,
         link: 'https://recipes-app-project-umber.vercel.app/',
-        description: 'O app de receitas é um projeto onde foi contruido um aplicativo de receitas, que no qual o usuário tem a possibilidade de de favoritar, salvar, compartilhar uma receita. Tendo acesso a uma página completa com todos os detalhes de como fazer o prato ou uma bebida.',
+        description: 'O app de receitas é um projeto onde foi contruido um aplicativo de receitas, que no qual o usuário tem a possibilidade de de favoritar, salvar, compartilhar uma receita.',
         techs: [
             {
                 img: javaScript

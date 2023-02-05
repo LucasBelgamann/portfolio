@@ -49,7 +49,7 @@ export default function Contact() {
             <input
               type="hidden"
               name="redirectTo"
-              value="https://acqualine.vercel.app/"
+              value="https://agostinho-portfolio.vercel.app/#"
             ></input>
             <button>Enviar</button>
           </form>

@@ -21,7 +21,8 @@
 }
 
 .form h2 {
-  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  font-family: 'Rock Salt', cursive;
   color: white;
   margin-bottom: 20px;
 }
@@ -46,6 +47,7 @@
   align-items: center;
   justify-content: center;
   color: rgb(104, 103, 103);
+  font-family: 'Gloria Hallelujah', cursive;
   width: 100%;
   height: 7vh;
   border-top: solid rgb(104, 103, 103) 1px;
@@ -117,6 +119,7 @@ div.sigle-input .input:valid ~ label {
   height: 5vh;
   margin-top: 10px;
   background-color: #0e193e;
+  font-family: 'Rock Salt', cursive;
   transition: background-color;
   transition-duration: 0.5s;
 }
@@ -146,5 +149,10 @@ div.sigle-input .input:valid ~ label {
   .container-form svg {
     font-size: 40px;
     color: white;
+  }
+
+  .form h2 {
+    font-size: 15px;
+    font-family: 'Rock Salt', cursive;
   }
 }

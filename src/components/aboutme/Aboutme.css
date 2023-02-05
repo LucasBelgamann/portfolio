@@ -14,8 +14,10 @@
 }
 
 .aboutme h2 {
-   font-family: 'Anton', sans-serif;
-   font-size: 70px;
+    /* font-family: 'Amatic SC', cursive; */
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-family: 'Rock Salt', cursive;
+   font-size: 45px;
    width: 35%;
 }
 
@@ -29,7 +31,7 @@
 .aboutme p {
     color: rgb(75, 74, 74);
     text-align: right;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
     width: 35%;
     font-size: 30px;
  }
@@ -55,7 +57,7 @@
     }
     
     .aboutme p {
-        font-size: 15px;
+        font-size: 12px;
      }
     
  }

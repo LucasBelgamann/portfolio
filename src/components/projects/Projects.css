@@ -12,7 +12,7 @@
 }
 
 .title-projects {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Rock Salt', cursive;
   padding: 60px 0 30px 0;
   font-size: 40px;
   text-align: center;
@@ -90,7 +90,7 @@
 }
 
 .card .content h2 {
-  font-family: "Anton", sans-serif;
+  font-family: 'Rock Salt', cursive;
   color: #fff;
   font-size: 20px;
   letter-spacing: 5px;
@@ -99,6 +99,8 @@
 
 .card .content p {
   color: rgb(75, 74, 74);
+  font-size: 15px;
+  font-family: 'Gloria Hallelujah', cursive;
   margin-bottom: 25px;
 }
 
