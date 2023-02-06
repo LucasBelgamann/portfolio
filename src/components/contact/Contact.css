@@ -170,7 +170,7 @@ div.sigle-input .input:valid ~ label {
 
 @media screen and (min-width: 380px) and (max-width: 460px) {
   .container-form {
-    height: 75vh;
+    height: 85vh;
     flex-direction: column;
   }
 
@@ -184,12 +184,13 @@ div.sigle-input .input:valid ~ label {
 
   .form button {
     width: 40vw;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 
   .container-form svg {
     font-size: 35px;
     color: white;
+    margin-bottom: 20px;
   }
 
   .form h2 {
