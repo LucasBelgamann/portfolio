@@ -118,8 +118,7 @@
   margin-right: 10px;
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 380px) {
   .container-projects {
     flex-direction: column;
     align-items: center;
@@ -128,7 +127,82 @@
   
   .card {
     width: 90%;
-    height: 30vh;
+    height: 40vh;
+    margin: 15px;
+  }
+  
+  .card .circle::before {
+    clip-path: circle(20px at center);
+  }
+  
+  .card .image {
+    height: 25vh;
+  }
+  
+  .card .content h2 {
+    font-size: 12px;
+  }
+  
+  .card .content p {
+    font-size: 9px;
+  }
+  
+  .card .content button {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 460px) {
+  .container-projects {
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+  
+  .card {
+    width: 90%;
+    height: 35vh;
+    margin: 15px;
+  }
+  
+  .card .circle::before {
+    clip-path: circle(20px at center);
+  }
+  
+  .card .image {
+    height: 25vh;
+  }
+
+  .card:hover .image {
+    left: -49%;
+  }
+  
+  .card .content h2 {
+    font-size: 12px;
+  }
+  
+  .card .content p {
+    font-size: 10px;
+  }
+  
+  .card .content button {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 460px) and (max-width: 760px) {
+  .container-projects {
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+  
+  .card {
+    width: 90%;
+    height: 35vh;
     margin: 15px;
   }
   
@@ -152,9 +226,10 @@
     font-size: 10px;
     padding: 5px;
   }
+  
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 760px) and (max-width: 1023px) {
   .container-projects {
     flex-direction: column;
     align-items: center;
@@ -162,8 +237,8 @@
   }
   
   .card {
-    width: 90%;
-    height: 30vh;
+    width: 80%;
+    height: 35vh;
     margin: 15px;
   }
   
@@ -176,30 +251,39 @@
   }
   
   .card .content h2 {
-    font-size: 15px;
+    font-size: 17px;
   }
   
   .card .content p {
-    font-size: 12px;
+    font-size: 15px;
   }
   
   .card .content button {
     font-size: 10px;
     padding: 5px;
   }
-  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
   .card .image {
     height: 25vh;
   }
-
+    
   .card .circle::before {
-    clip-path: circle(20px at center);
+    clip-path: circle(10px at center);
   }
 
   .card {
-    margin: 15px;
+    width: 40%;
+    height: 40vh;
+    margin: 5px;
+  }
+
+  .card .content h2 {
+    font-size: 15px;
+  }
+  
+  .card .content p {
+    font-size: 13px;
   }
 }

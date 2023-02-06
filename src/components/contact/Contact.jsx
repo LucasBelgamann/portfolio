@@ -53,7 +53,7 @@ export default function Contact() {
             ></input>
             <button>Enviar</button>
           </form>
-          <div>
+          <div className="links-contact">
             <a href="https://www.linkedin.com/in/lucasbelgamann/" target="_blank" rel="noreferrer">
               <ImIcon.ImLinkedin />
             </a>

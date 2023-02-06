@@ -36,10 +36,36 @@
     font-size: 30px;
  }
 
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 380px) {
     .container-about {
         display: flex;
-        height: 55vh;
+        height: 65vh;
+      }
+
+    .aboutme {
+        margin: auto;
+        width: 90%;
+    }
+    
+    .aboutme h2 {
+       font-size: 15px;
+    }
+    
+    
+    .line-about {
+        height: 20vh;
+    }
+    
+    .aboutme p {
+        font-size: 12px;
+     }
+    
+ }
+
+ @media screen and (min-width: 380px) and (max-width: 460px) {
+    .container-about {
+        display: flex;
+        height: 60vh;
       }
 
     .aboutme {
@@ -57,14 +83,14 @@
     }
     
     .aboutme p {
-        font-size: 12px;
+        font-size: 10px;
      }
     
  }
 
  @media screen and (min-width: 767px) and (max-width: 1023px) {
     .container-about {
-        height: 55vh;
+        height: 65vh;
       }
 
     .aboutme {
@@ -73,7 +99,7 @@
     }
     
     .aboutme h2 {
-       font-size: 20px;
+       font-size: 25px;
     }
     
     
@@ -82,11 +108,31 @@
     }
     
     .aboutme p {
-        font-size: 12px;
+        font-size: 15px;
      }
     
  }
 
- @media screen and (max-width: 1024px) {
-  
+ @media screen and (max-width: 1024px) and (max-width: 1200px){
+    .container-about {
+        height: 65vh;
+      }
+
+    .aboutme {
+        margin: auto;
+        width: 90%;
+    }
+    
+    .aboutme h2 {
+       font-size: 30px;
+    }
+    
+    
+    .line-about {
+        height: 20vh;
+    }
+    
+    .aboutme p {
+        font-size: 20px;
+     }
  }
