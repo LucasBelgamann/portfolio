@@ -264,6 +264,10 @@ div.sigle-input .input:valid ~ label {
     font-size: 15px;
     font-family: 'Rock Salt', cursive;
   }
+
+  .links-contact {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 760px) and (max-width: 1023px) {
@@ -293,6 +297,10 @@ div.sigle-input .input:valid ~ label {
   .form h2 {
     font-size: 15px;
     font-family: 'Rock Salt', cursive;
+  }
+  
+  .links-contact {
+    margin-bottom: 60px;
   }
 }
 
