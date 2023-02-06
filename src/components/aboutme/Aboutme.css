@@ -48,7 +48,7 @@
     }
     
     .aboutme h2 {
-       font-size: 15px;
+       font-size: 14px;
     }
     
     
@@ -57,7 +57,7 @@
     }
     
     .aboutme p {
-        font-size: 12px;
+        font-size: 10px;
      }
     
  }
@@ -74,7 +74,7 @@
     }
     
     .aboutme h2 {
-       font-size: 20px;
+       font-size: 14px;
     }
     
     
@@ -90,7 +90,7 @@
 
  @media screen and (min-width: 767px) and (max-width: 1023px) {
     .container-about {
-        height: 65vh;
+        height: 60vh;
       }
 
     .aboutme {

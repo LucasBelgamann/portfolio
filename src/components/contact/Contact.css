@@ -1,17 +1,29 @@
-.container-contact {
-  height: 60vh;
+.container-form {
+  color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  width: 90%;
+  height: 60vh;
 }
 
-.container-form {
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 40px;
+.container-form svg {
+  color: white;
+  font-size: 40px;
+  transition: color;
+  transition-duration: 0.5s;
+}
+
+.container-form svg:hover {
+  color: #273b7a;
+}
+
+.footer-text {
+  font-family: "Rock Salt", cursive;
+  color: #273b7a;
+  font-size: 15px;
+  text-align: right;
+  width: 25%;
 }
 
 .form {
@@ -21,36 +33,27 @@
 }
 
 .form h2 {
-  font-size: 20px;
-  font-family: 'Rock Salt', cursive;
-  color: white;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
-.container-form svg {
-  font-size: 60px;
+.form button {
+  font-family: "Rock Salt", cursive;
+  cursor: pointer;
   color: white;
-  transition: color;
-  transition-duration: 0.5s;
+  border: none;
+  border-radius: 5px;
+  background-color: #273b7a;
+  width: 10vw;
+  height: 5vh;
 }
 
-.container-form svg:hover {
-  color: #273b7a;
+.form button:hover {
+  background-color: #476adc;
 }
 
 .github {
   margin: 0 20px;
-}
-
-.developer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(104, 103, 103);
-  font-family: 'Gloria Hallelujah', cursive;
-  width: 100%;
-  height: 7vh;
-  border-top: solid rgb(104, 103, 103) 1px;
 }
 
 div.sigle-input {
@@ -65,7 +68,7 @@ div.sigle-input label {
   left: 5px;
   bottom: 10px;
   color: rgb(150, 150, 150);
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: "Gloria Hallelujah", cursive;
   cursor: text;
   transition: 0.5s ease-in-out;
 }
@@ -101,7 +104,7 @@ div.sigle-input .input:valid ~ label {
   height: 15vh;
   width: 20vw;
   resize: none;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: "Gloria Hallelujah", cursive;
   outline: none;
   transition: 0.3s ease-in-out;
 }
@@ -111,213 +114,259 @@ div.sigle-input .input:valid ~ label {
   border-bottom: 4px solid #273b7a;
 }
 
-.form button {
-  border: none;
-  color: white;
-  font-weight: bolder;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 10vw;
-  height: 5vh;
-  margin-top: 10px;
-  background-color: #0e193e;
-  font-family: 'Rock Salt', cursive;
-  transition: background-color;
-  transition-duration: 0.5s;
-}
-
-.form button:hover {
-  background-color: #273b7a;
+.developer {
+  color: rgb(193, 191, 191);
+  border-top: solid 1px rgb(193, 191, 191);
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 380px) {
   .container-form {
-    height: 75vh;
+    height: 100vh;
+    width: 100%;
     flex-direction: column;
   }
 
+  .form h2 {
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-family: "Gloria Hallelujah", cursive;
+  }
+
+  .footer-text {
+    font-family: "Rock Salt", cursive;
+    color: #273b7a;
+    font-size: 10px;
+    text-align: center;
+    width: 80%;
+  }
+
   div.sigle-input .input {
-    width: 65vw;
+    width: 60vw;
+    height: 6vh;
+    font-size: 16px;
   }
 
   .textarea {
-    width: 65vw;
+    font-size: 12px;
+    height: 15vh;
+    width: 60vw;
   }
 
   .form button {
-    width: 40vw;
-    margin-bottom: 60px;
-  }
-
-  .container-form svg {
-    font-size: 30px;
-    color: white;
-  }
-
-  .links-contact {
-    margin-bottom: 60px;
-  }
-
-  .form h2 {
-    font-size: 15px;
-    font-family: 'Rock Salt', cursive;
+    width: 25vw;
+    height: 5vh;
+    font-size: 10px;
   }
 
   .developer {
-   font-size: 10px;
+    font-size: 10px;
   }
 }
 
-@media screen and (min-width: 380px) and (max-width: 460px) {
+@media screen and (min-width: 380px) and (max-width: 410px) {
   .container-form {
-    height: 85vh;
+    height: 100vh;
+    width: 100%;
     flex-direction: column;
   }
 
+  .form h2 {
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-family: "Gloria Hallelujah", cursive;
+  }
+
+  .footer-text {
+    font-family: "Rock Salt", cursive;
+    color: #273b7a;
+    font-size: 10px;
+    text-align: center;
+    width: 80%;
+  }
+
   div.sigle-input .input {
-    width: 65vw;
+    width: 60vw;
+    height: 6vh;
+    font-size: 16px;
   }
 
   .textarea {
-    width: 65vw;
+    font-size: 12px;
+    height: 15vh;
+    width: 60vw;
   }
 
   .form button {
-    width: 40vw;
-    margin-bottom: 10px;
+    width: 25vw;
+    height: 5vh;
+    font-size: 10px;
   }
 
-  .container-form svg {
-    font-size: 35px;
-    color: white;
-    margin-bottom: 20px;
+  .developer {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 410px) and (max-width: 760px) {
+  .container-form {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
   }
 
   .form h2 {
-    font-size: 15px;
-    font-family: 'Rock Salt', cursive;
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-family: "Gloria Hallelujah", cursive;
+  }
+
+  .footer-text {
+    font-family: "Rock Salt", cursive;
+    color: #273b7a;
+    font-size: 12px;
+    text-align: center;
+    width: 70%;
+  }
+
+  div.sigle-input .input {
+    width: 70vw;
+    height: 6vh;
+    font-size: 16px;
+  }
+
+  div.sigle-input .input:focus ~ label,
+  div.sigle-input .input:valid ~ label {
+    transform: translateY(-50px);
+  }
+
+  .textarea {
+    font-size: 12px;
+    height: 15vh;
+    width: 70vw;
+  }
+
+  .form button {
+    width: 30vw;
+    height: 5vh;
+    font-size: 10px;
   }
 
   .developer {
     font-size: 12px;
-   }
-}
-
-@media screen and (min-width: 460px) and (max-width: 760px) {
-  .container-form {
-    height: 75vh;
-    flex-direction: column;
-  }
-
-  div.sigle-input .input {
-    width: 65vw;
-  }
-
-  .textarea {
-    width: 65vw;
-  }
-
-  .form button {
-    width: 40vw;
-    margin-bottom: 60px;
-  }
-
-  .container-form svg {
-    font-size: 40px;
-    color: white;
-  }
-
-  .form h2 {
-    font-size: 15px;
-    font-family: 'Rock Salt', cursive;
   }
 }
 
 @media screen and (min-width: 460px) and (max-width: 760px) {
   .container-form {
-    height: 75vh;
+    height: 100vh;
+    width: 100%;
     flex-direction: column;
   }
 
+  .form h2 {
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-family: "Gloria Hallelujah", cursive;
+  }
+
+  .footer-text {
+    font-family: "Rock Salt", cursive;
+    color: #273b7a;
+    font-size: 12px;
+    text-align: center;
+    width: 70%;
+  }
+
   div.sigle-input .input {
-    width: 65vw;
+    width: 70vw;
+    height: 6vh;
+    font-size: 16px;
+  }
+
+  div.sigle-input .input:focus ~ label,
+  div.sigle-input .input:valid ~ label {
+    transform: translateY(-50px);
   }
 
   .textarea {
-    width: 65vw;
+    font-size: 12px;
+    height: 15vh;
+    width: 70vw;
   }
 
   .form button {
-    width: 40vw;
-    margin-bottom: 60px;
+    width: 30vw;
+    height: 5vh;
+    font-size: 10px;
   }
 
-  .container-form svg {
-    font-size: 40px;
-    color: white;
-  }
-
-  .form h2 {
-    font-size: 15px;
-    font-family: 'Rock Salt', cursive;
+  .developer {
+    font-size: 10px;
   }
 }
 
 @media screen and (min-width: 760px) and (max-width: 1023px) {
   .container-form {
-    height: 75vh;
+    height: 100vh;
+    width: 100%;
     flex-direction: column;
   }
 
+  .form h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-family: "Gloria Hallelujah", cursive;
+  }
+
+  .footer-text {
+    font-family: "Rock Salt", cursive;
+    color: #273b7a;
+    font-size: 18px;
+    text-align: center;
+    width: 70%;
+  }
+
   div.sigle-input .input {
-    width: 45vw;
+    width: 60vw;
+    height: 6vh;
+    font-size: 16px;
+  }
+
+  div.sigle-input label {
+    font-size: 20px;
+  }
+
+  div.sigle-input .input:focus ~ label,
+  div.sigle-input .input:valid ~ label {
+    transform: translateY(-65px);
   }
 
   .textarea {
-    width: 45vw;
+    font-size: 20px;
+    height: 15vh;
+    width: 60vw;
   }
 
   .form button {
-    width: 45vw;
-    margin-bottom: 60px;
+    width: 30vw;
+    height: 5vh;
+    font-size: 10px;
+  }
+
+  .developer {
+    font-size: 12px;
   }
 
   .container-form svg {
-    font-size: 40px;
-    color: white;
-  }
-
-  .form h2 {
-    font-size: 15px;
-    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
   }
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
-  .container-form {
-    height: 75vh;
-  }
-
-  div.sigle-input .input {
-    width: 30vw;
-  }
-
-  .textarea {
-    width: 30vw;
-  }
-
-  .form button {
-    width: 30vw;
-    margin-bottom: 60px;
-  }
-
-  .container-form svg {
-    font-size: 55px;
-    color: white;
-  }
-
-  .form h2 {
-    font-size: 15px;
-    font-family: 'Rock Salt', cursive;
-  }
 }
