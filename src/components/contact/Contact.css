@@ -29,7 +29,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .form h2 {
@@ -41,6 +40,7 @@
   font-family: "Rock Salt", cursive;
   cursor: pointer;
   color: white;
+  margin: 0 auto;
   border: none;
   border-radius: 5px;
   background-color: #273b7a;
@@ -319,6 +319,58 @@ div.sigle-input .input:valid ~ label {
   }
 
   .form h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .footer-text {
+    font-size: 11px;
+    text-align: center;
+    width: 50%;
+  }
+
+  div.sigle-input .input {
+    width: 50vw;
+    height: 6vh;
+  }
+
+  div.sigle-input label {
+    font-size: 15px;
+  }
+
+  div.sigle-input .input:focus ~ label,
+  div.sigle-input .input:valid ~ label {
+    transform: translateY(-65px);
+  }
+
+  .textarea {
+    font-size: 15px;
+    height: 15vh;
+    width: 50vw;
+  }
+
+  .form button {
+    width: 20vw;
+    height: 5vh;
+    font-size: 10px;
+  }
+
+  .developer {
+    font-size: 12px;
+  }
+
+  .container-form svg {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+  .container-form {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .form h2 {
     margin-bottom: 25px;
     font-size: 30px;
     font-family: "Gloria Hallelujah", cursive;
@@ -327,13 +379,13 @@ div.sigle-input .input:valid ~ label {
   .footer-text {
     font-family: "Rock Salt", cursive;
     color: #273b7a;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
-    width: 70%;
+    width: 25%;
   }
 
   div.sigle-input .input {
-    width: 60vw;
+    width: 30vw;
     height: 6vh;
     font-size: 16px;
   }
@@ -344,17 +396,16 @@ div.sigle-input .input:valid ~ label {
 
   div.sigle-input .input:focus ~ label,
   div.sigle-input .input:valid ~ label {
-    transform: translateY(-65px);
+    transform: translateY(-35px);
   }
 
   .textarea {
-    font-size: 20px;
+    font-size: 16px;
     height: 15vh;
-    width: 60vw;
+    width: 30vw;
   }
 
   .form button {
-    width: 30vw;
     height: 5vh;
     font-size: 10px;
   }
@@ -366,7 +417,4 @@ div.sigle-input .input:valid ~ label {
   .container-form svg {
     font-size: 50px;
   }
-}
-
-@media screen and (min-width: 1023px) and (max-width: 1200px) {
 }

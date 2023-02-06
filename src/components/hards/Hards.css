@@ -43,11 +43,11 @@
 
 @media screen and (min-width: 767px) and (max-width: 867px) {
   .container-hards {
-    margin-bottom: 160px;
+    margin: 160px 0;
     height: 10vh;
   }
 
   .hards img {
-    width: 15%;
+    width: 10%;
   }
 }
