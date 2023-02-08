@@ -43,12 +43,6 @@ export const Data = [
                 img: javaScript
             },
             {
-                img: nodejs
-            },
-            {
-                img: mySql
-            },
-            {
                 img: css
             },
             {
